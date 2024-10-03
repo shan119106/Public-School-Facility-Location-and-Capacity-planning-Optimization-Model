@@ -1,0 +1,126 @@
+\* SubProblem *\
+Maximize
+OBJ: 20 DualVariablecons6_(1,_1) + 25 DualVariablecons6_(1,_2)
+ + 15 DualVariablecons6_(1,_3) + 20 DualVariablecons6_(1,_5)
+ + 20 DualVariablecons6_(2,_1) + 30 DualVariablecons6_(2,_2)
+ + 40 DualVariablecons6_(2,_3) + 20 DualVariablecons6_(2,_4)
+ + 30 DualVariablecons6_(3,_1) + 45 DualVariablecons6_(3,_2)
+ + 35 DualVariablecons6_(3,_4) + 15 DualVariablecons6_(3,_5)
+ + 19 DualVariablecons7_1 + 34.6 DualVariablecons7_2 + 36 DualVariablecons7_3
+ + 41.7 DualVariablecons8_1 + 66.6 DualVariablecons8_2
+ + 39.9 DualVariablecons8_3 + 54.6 DualVariablecons8_4
+ + 39.3 DualVariablecons8_5 + 139 DualVariableforcons2_1
+ + 222 DualVariableforcons2_2 + 133 DualVariableforcons2_3
+ + 182 DualVariableforcons2_4 + 131 DualVariableforcons2_5
+ + 95 DualVariableforcons3_1 + 173 DualVariableforcons3_2
+ + 180 DualVariableforcons3_3
+Subject To
+_C1: DualVariablecons4_(1,_1) + DualVariablecons6_(1,_1)
+ + 9.2 DualVariablecons9_1 + DualVariableforcons2_1 + DualVariableforcons3_1
+ <= 2.3
+_C10: DualVariablecons4_(2,_5) + DualVariablecons6_(2,_5)
+ + 9.5 DualVariablecons9_5 + DualVariableforcons2_5 + DualVariableforcons3_2
+ <= 2.375
+_C11: DualVariablecons4_(3,_1) + DualVariablecons6_(3,_1)
+ + 9.5 DualVariablecons9_1 + DualVariableforcons2_1 + DualVariableforcons3_3
+ <= 2.375
+_C12: DualVariablecons4_(3,_2) + DualVariablecons6_(3,_2)
+ + 3.7 DualVariablecons9_2 + DualVariableforcons2_2 + DualVariableforcons3_3
+ <= 0.925
+_C13: DualVariablecons4_(3,_3) + DualVariablecons6_(3,_3)
+ + 7.6 DualVariablecons9_3 + DualVariableforcons2_3 + DualVariableforcons3_3
+ <= 1.9
+_C14: DualVariablecons4_(3,_4) + DualVariablecons6_(3,_4)
+ + 4.1 DualVariablecons9_4 + DualVariableforcons2_4 + DualVariableforcons3_3
+ <= 1.025
+_C15: DualVariablecons4_(3,_5) + DualVariablecons6_(3,_5)
+ + 9.2 DualVariablecons9_5 + DualVariableforcons2_5 + DualVariableforcons3_3
+ <= 2.3
+_C16: DualVariablecons6_(1,_1) <= 25
+_C17: DualVariablecons6_(1,_2) <= 25
+_C18: DualVariablecons6_(1,_3) <= 25
+_C19: DualVariablecons6_(1,_4) <= 25
+_C2: DualVariablecons4_(1,_2) + DualVariablecons6_(1,_2)
+ + 3 DualVariablecons9_2 + DualVariableforcons2_2 + DualVariableforcons3_1
+ <= 0.75
+_C20: DualVariablecons6_(1,_5) <= 25
+_C21: DualVariablecons6_(2,_1) <= 25
+_C22: DualVariablecons6_(2,_2) <= 25
+_C23: DualVariablecons6_(2,_3) <= 25
+_C24: DualVariablecons6_(2,_4) <= 25
+_C25: DualVariablecons6_(2,_5) <= 25
+_C26: DualVariablecons6_(3,_1) <= 25
+_C27: DualVariablecons6_(3,_2) <= 25
+_C28: DualVariablecons6_(3,_3) <= 25
+_C29: DualVariablecons6_(3,_4) <= 25
+_C3: DualVariablecons4_(1,_3) + DualVariablecons6_(1,_3)
+ + 7 DualVariablecons9_3 + DualVariableforcons2_3 + DualVariableforcons3_1
+ <= 1.75
+_C30: DualVariablecons6_(3,_5) <= 25
+_C31: - 139 DualVariablecons9_1 - 222 DualVariablecons9_2
+ - 133 DualVariablecons9_3 - 182 DualVariablecons9_4 - 131 DualVariablecons9_5
+ <= 0.25
+_C32: DualVariablecons8_1 + DualVariableforcons2_1 <= 0
+_C33: DualVariablecons8_2 + DualVariableforcons2_2 <= 0
+_C34: DualVariablecons8_3 + DualVariableforcons2_3 <= 0
+_C35: DualVariablecons8_4 + DualVariableforcons2_4 <= 0
+_C36: DualVariablecons8_5 + DualVariableforcons2_5 <= 0
+_C37: DualVariablecons7_1 + DualVariableforcons3_1 <= 0
+_C38: DualVariablecons7_2 + DualVariableforcons3_2 <= 0
+_C39: DualVariablecons7_3 + DualVariableforcons3_3 <= 0
+_C4: DualVariablecons4_(1,_4) + DualVariablecons6_(1,_4)
+ + 3.3 DualVariablecons9_4 + DualVariableforcons2_4 + DualVariableforcons3_1
+ <= 0.825
+_C5: DualVariablecons4_(1,_5) + DualVariablecons6_(1,_5)
+ + 9 DualVariablecons9_5 + DualVariableforcons2_5 + DualVariableforcons3_1
+ <= 2.25
+_C6: DualVariablecons4_(2,_1) + DualVariablecons6_(2,_1)
+ + 9.7 DualVariablecons9_1 + DualVariableforcons2_1 + DualVariableforcons3_2
+ <= 2.425
+_C7: DualVariablecons4_(2,_2) + DualVariablecons6_(2,_2)
+ + 3.1 DualVariablecons9_2 + DualVariableforcons2_2 + DualVariableforcons3_2
+ <= 0.775
+_C8: DualVariablecons4_(2,_3) + DualVariablecons6_(2,_3)
+ + 7.3 DualVariablecons9_3 + DualVariableforcons2_3 + DualVariableforcons3_2
+ <= 1.825
+_C9: DualVariablecons4_(2,_4) + DualVariablecons6_(2,_4)
+ + 3.2 DualVariablecons9_4 + DualVariableforcons2_4 + DualVariableforcons3_2
+ <= 0.8
+Bounds
+ -inf <= DualVariablecons4_(1,_1) <= 0
+ -inf <= DualVariablecons4_(1,_2) <= 0
+ -inf <= DualVariablecons4_(1,_3) <= 0
+ -inf <= DualVariablecons4_(1,_4) <= 0
+ -inf <= DualVariablecons4_(1,_5) <= 0
+ -inf <= DualVariablecons4_(2,_1) <= 0
+ -inf <= DualVariablecons4_(2,_2) <= 0
+ -inf <= DualVariablecons4_(2,_3) <= 0
+ -inf <= DualVariablecons4_(2,_4) <= 0
+ -inf <= DualVariablecons4_(2,_5) <= 0
+ -inf <= DualVariablecons4_(3,_1) <= 0
+ -inf <= DualVariablecons4_(3,_2) <= 0
+ -inf <= DualVariablecons4_(3,_3) <= 0
+ -inf <= DualVariablecons4_(3,_4) <= 0
+ -inf <= DualVariablecons4_(3,_5) <= 0
+ -inf <= DualVariablecons7_1 <= 0
+ -inf <= DualVariablecons7_2 <= 0
+ -inf <= DualVariablecons7_3 <= 0
+ -inf <= DualVariablecons8_1 <= 0
+ -inf <= DualVariablecons8_2 <= 0
+ -inf <= DualVariablecons8_3 <= 0
+ -inf <= DualVariablecons8_4 <= 0
+ -inf <= DualVariablecons8_5 <= 0
+ -inf <= DualVariablecons9_1 <= 0
+ -inf <= DualVariablecons9_2 <= 0
+ -inf <= DualVariablecons9_3 <= 0
+ -inf <= DualVariablecons9_4 <= 0
+ -inf <= DualVariablecons9_5 <= 0
+ DualVariableforcons2_1 free
+ DualVariableforcons2_2 free
+ DualVariableforcons2_3 free
+ DualVariableforcons2_4 free
+ DualVariableforcons2_5 free
+ DualVariableforcons3_1 free
+ DualVariableforcons3_2 free
+ DualVariableforcons3_3 free
+End
